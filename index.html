@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Tag Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Tag Generator</h1>
+        <p>Generate optimized tags for your YouTube videos based on video content</p>
+        
+        <div class="input-section">
+            <input type="text" id="videoUrl" placeholder="Enter YouTube video URL">
+            <button id="generateBtn">Generate Tags</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing video content...</p>
+        </div>
+
+        <div class="results" id="results">
+            <h2>Generated Tags</h2>
+            <div class="tags-container" id="tagsContainer"></div>
+            <div class="tags-text">
+                <textarea id="tagsText" readonly></textarea>
+                <button id="copyBtn">Copy All Tags</button>
+            </div>
+        </div>
+
+        <div class="error" id="error">
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
