@@ -1,0 +1,26 @@
+{
+  "name": "youtube-tag-generator",
+  "version": "1.0.0",
+  "description": "Generate YouTube tags based on video content",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "netlify build"
+  },
+  "keywords": [
+    "youtube",
+    "tags",
+    "generator",
+    "seo"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "openai": "^3.3.0",
+    "youtube-transcript": "^1.0.6"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.3.1"
+  }
+}
